@@ -10,6 +10,7 @@ import pages.Login;
 public class LoginTest {
 	WebDriver driver = new ChromeDriver();
 	
+	
   @BeforeTest
   public void beforeTest() {
 	  driver.manage().window().maximize();
